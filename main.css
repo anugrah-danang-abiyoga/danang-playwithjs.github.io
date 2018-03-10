@@ -16,7 +16,7 @@ body, #slider, .wrap, .slide-content{
 .slide {
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .slide1 {background-color: #00cc00;}
