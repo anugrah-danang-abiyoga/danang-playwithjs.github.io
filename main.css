@@ -1,2 +1,24 @@
 /* colours */
 
+body, #slider, .wrap, .slide-content{
+    margin: 10;
+    padding: 10;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrap {
+    position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.slide1 {background-color: #00cc00;}
+.slide2 {background-color: #ff3333;}
+.slide3 {background-color: #e6e600;}
