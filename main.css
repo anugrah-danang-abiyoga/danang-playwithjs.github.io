@@ -1,10 +1,10 @@
 /* colours */
 
-$color1: tomato;
-$color2: orange;
-$color3: violet;
-$color4: gray;
-$color5: SlateBlue;
+$color1: #7300e6;
+$color2: #ff4dff;
+$color3: #39e600;
+$color4: #cc8800;
+$color5: #00b3b3;
 
 body {
     margin: 10%;
@@ -16,6 +16,7 @@ body {
         height: 250px;
         overflow: hidden;
         box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
 
         ul {
             position: relative;
@@ -26,12 +27,14 @@ body {
             margin: 0;
             transition: all 750ms ease;
             left: 0;
+        }
             
             li {
               position: relative;
               height: 100%;
               width: calc(80vw);
               float: left;
+            }
               
               img {
                 width: 100%;
@@ -60,9 +63,9 @@ body {
               &:nth-child(5) {
                 background-color: $color5;
               }
-            }
-          }
-        }
+            
+          
+        
 
         #prev, #next{
             width: 50px;
@@ -77,18 +80,17 @@ body {
             top: 50%;
             transform: translateY(-50%);
             transition: all 150ms ease;
+        }
             &:hover {
               background-color: rgba(0,0,0,0.5);
               text-shadow: 0;
             }
-          }
           #prev {  
             left: 10px;
           }
           #next {
             right: 10px;
           }
-        }
         
 
 
