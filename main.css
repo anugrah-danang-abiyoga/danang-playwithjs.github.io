@@ -29,7 +29,7 @@ body, #slider, .wrap, .slide-content{
     text-align: center;
 }
 
-.slide.content span{
+.span{
     font-size: 26px;
     color: #00264d;
 }
