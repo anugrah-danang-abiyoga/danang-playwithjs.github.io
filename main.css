@@ -17,9 +17,9 @@ body, #slider, .wrap, .slide-content{
     background-repeat: no-repeat;
 }
 
-.slide1 {background-image: #00cc00;}
-.slide2 {background-image: #ff3333;}
-.slide3 {background-image: #e6e600;}
+.slide1 {background-color: #00cc00;}
+.slide2 {background-color: #ff3333;}
+.slide3 {background-color: #e6e600;}
 
 .slide-content {
     display: flex;
