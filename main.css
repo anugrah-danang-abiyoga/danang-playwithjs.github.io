@@ -20,3 +20,12 @@ body, #slider, .wrap, .slide-content{
 .slide1 {background-color: #00cc00;}
 .slide2 {background-color: #ff3333;}
 .slide3 {background-color: #e6e600;}
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
